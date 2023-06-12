@@ -41,5 +41,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd skypro_kvolodina_app
+            cd flask_app_ci
             docker-compose up -d
