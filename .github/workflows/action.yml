@@ -41,5 +41,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd hw_26
+            cd skypro_kvolodina_app
             docker-compose up -d
