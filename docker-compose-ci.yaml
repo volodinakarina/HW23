@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  api:
+    image: volodinakarina/skypro_kvolodina_app:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    environment:
+      FLASK_ENV: production
+    ports:
+      - 25000:25000
